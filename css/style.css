@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #fff; }
+
+.panel {
+  min-height: 318px; }
+
+#wrapper {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  #wrapper .panel {
+    margin: 20px; }
+
+nav .navbar-brand {
+  padding: 0px !important;
+  margin-left: 40px !important; }
+
+nav li {
+  padding: 10px 10px;
+  border-right: 2px solid #EDEBEB; }
+  .big{transform: scale(1.3); cursor:pointer;}
+  
+.page-heading {
+  background-color: rgba(56, 116, 199, 0.29);
+  background-repeat: no-repeat;
+  background-image: url("http://zybrstate.com/wp-content/uploads/2016/07/zybrstate-home-bg-image-1.png");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  color: #8E8E93;
+  font-family: Arial, Helvetica, sans-serif; }
+
+section#landing-page {
+  background-color: rgba(0, 0, 0, 0.29);
+  background-repeat: no-repeat;
+  background-image: url("../images/homepage.jpeg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  color: #8E8E93;
+  font-family: Arial, Helvetica, sans-serif; }
+  section#landing-page #landing-text {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2% 10%; }
+    section#landing-page #landing-text h1 {
+      color: #787575;
+      font-family: Apple Chancery; }
+    section#landing-page #landing-text .btn {
+      background: #379494; }
+  section#landing-page .lead {
+    color: #787575;
+    background: rgba(255, 255, 255, 0.53);
+    display: inline-block;
+    border-radius: 4px; }
+    section#landing-page .lead a {
+      color: #286090; }
+
+section img {
+  min-height: 250px !important; }
+
+.desc {
+  padding: 5% 0;
+  background: #fff; }
+  .desc .row {
+    margin: 40px 10px; }
+  .desc .btn {
+    background: #379494; }
+
+.crm .well {
+  margin: 0 20px 5px 20px; }
+
+.crm ul {
+  list-style: none; }
+
+.crm li {
+  padding: 10px 5px;
+  color: #8E8E93; }
+
+.home-card .card {
+  background: rgba(236, 234, 234, 0.35);
+  margin: 5px;
+  text-align: center;
+  color: #A39F9F;
+  border: 1px solid #CAC6C6;
+  border-radius: 0px 0px 5px 5px; }
+  .home-card .card .card-body {
+    border-top: 1px solid #CAC6C6;
+    padding: 10px 10px 10px 20px; }
+    .home-card .card .card-body .card-title {
+      color: #686363;
+      font-weight: 600; }
+  .home-card .card center {
+    background: #fff; }
+
+.transition {
+  display: inline-block;
+  background: #4694C9;
+  color: #f1f1f1;
+  margin: 1%;
+  min-height: 450px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2%;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.29); }
+  .transition .description {
+    position: absolute;
+    top: 120px;
+    opacity: 0; }
+    .transition .description p {
+      line-height: 2.0;
+      font-size: 1.1em;
+      font-weight: 400; }
+    .transition .description ul {
+      list-style: none; }
+    .transition .description li {
+      padding: 12px 5px;
+      font-size: 1.1em;
+      font-weight: 400;
+      list-style: none; }
+  .transition .description1 {
+    position: absolute;
+    top: 200px;
+    opacity: 0; }
+    .transition .description1 p {
+      line-height: 2.0;
+      font-size: 1.1em;
+      font-weight: 400; }
+    .transition .description1 ui {
+      list-style: none; }
+    .transition .description1 li {
+      padding: 12px 5px;
+      font-size: 1.1em;
+      font-weight: 400;
+      list-style: none; }
+
+@keyframes moving-heading {
+  0% {
+    transform: translateY(0px);
+    opacity: 0; }
+  100% {
+    transform: translateY(-220px);
+    opacity: 1; } }
+
+@keyframes moving-description {
+  0% {
+    transform: translateY(10px);
+    opacity: 0; }
+  30% {
+    transform: translateY(25px);
+    opacity: 0.5; }
+  100% {
+    transform: translateY(-30px);
+    opacity: 1; } }
+
+@keyframes moving-icon {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+  .transition .icons img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto; }
+  .transition .heading {
+    margin-top: 250px;
+    text-align: center;
+    color: #fff; }
+  .transition:hover .description {
+    text-align: left;
+    opacity: 1;
+    animation: moving-description 1s forwards; }
+  .transition:hover .description1 {
+    text-align: left;
+    opacity: 1;
+    animation: moving-description 1s forwards; }
+  .transition:hover .heading {
+    color: #f4f4f4;
+    border-bottom: 2px solid #B7B3B3;
+    animation: moving-heading 1s forwards; }
+  .transition:hover .icons {
+    color: #f4f4f4;
+    animation: moving-icon 500ms forwards; }
+
+@media screen and (min-width: 1200px) {
+  .transition {
+    margin-left: 1%;
+    width: 18% !important; }
+    .transition .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 1200px) {
+  .transition {
+    margin-left: 2%;
+    width: 30% !important; }
+    .transition .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 800px) {
+  .transition {
+    margin-left: 3%;
+    width: 45% !important; } }
+
+@media screen and (max-width: 480px) {
+  .transition {
+    margin: 5%;
+    width: 90% !important;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .sales {
+    margin-left: 12%;
+    width: 30% !important; }
+    .sales .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 1200px) {
+  .sales {
+    margin-left: 8%;
+    width: 40% !important; }
+    .sales .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 800px) {
+  .sales {
+    margin-left: 3%;
+    width: 45% !important; } }
+
+@media screen and (max-width: 480px) {
+  .sales {
+    width: 95% !important;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .om {
+    margin-left: 5%;
+    width: 25% !important; }
+    .om .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 1200px) {
+  .om {
+    margin-left: 8%;
+    width: 35% !important; }
+    .om .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 800px) {
+  .om {
+    margin-left: 3%;
+    width: 45% !important;
+    float: left !important; } }
+
+@media screen and (max-width: 480px) {
+  .om {
+    margin: 2%;
+    width: 95% !important;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .others {
+    margin: 2%;
+    width: 21% !important; }
+    .others .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 1200px) {
+  .others {
+    margin: 2.5%;
+    width: 28% !important; }
+    .others .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 800px) {
+  .others {
+    margin: 3% 3% 3% 5%;
+    width: 40% !important; } }
+
+@media screen and (max-width: 480px) {
+  .others {
+    margin: 5%;
+    width: 90% !important;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .customers {
+    margin: 2%;
+    width: 21% !important; }
+    .customers .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 1200px) {
+  .customers {
+    margin: 2.5%;
+    width: 28% !important; }
+    .customers .description ul li {
+      padding: 5px 5px; } }
+
+@media screen and (max-width: 800px) {
+  .customers {
+    margin: 3% 3% 3% 5%;
+    width: 40% !important; } }
+
+@media screen and (max-width: 480px) {
+  .customers {
+    margin: 5%;
+    width: 90% !important;
+    float: left; } }

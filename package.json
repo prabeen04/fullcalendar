@@ -1,0 +1,17 @@
+{
+  "name": "full",
+  "version": "1.0.0",
+  "description": "A static fullpage template",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "prabeen",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+ 
+}

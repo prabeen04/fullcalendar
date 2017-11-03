@@ -1,0 +1,35 @@
+[
+
+    {   
+        "eventId": "1",
+        "title": "Event1",
+        "start": "2017-09-11T00:00:00",
+        "end": "2017-09-12T10:00:00",
+        "description": "Its a Birthday",
+        "color": "#A3E4D7"
+    },
+    {   
+        "eventId": "2",
+        "title": "Event2",
+        "start": "2017-09-14T10:00:00",
+        "end": "2017-09-21T00:00:00",
+        "description": "picnic to kashmir",
+        "color": "#ee24D7"
+    },
+    {   
+        "eventId": "3",
+        "title": "Event1",
+        "start": "2017-09-20T10:00:00",
+        "end": "2017-09-28T16:00:00",
+        "description": "take a rest",
+        "color": "#2ff4D7"
+    },
+    {   
+        "eventId": "4",
+        "title": "Event1",
+        "start": "2017-09-24T10:00:00",
+        "end": "2017-09-24T16:00:00",
+        "description": "play al day",
+        "color": "#646dd7"
+    }
+]
